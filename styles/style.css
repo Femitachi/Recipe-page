@@ -1,0 +1,75 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: hsl(30, 54%, 90%);
+  font-family: Outfit, sans-serif;
+  min-height: 100vh;
+  font-size: 1rem;
+}
+*{
+  color: hsl(30, 10%, 34%);
+  font-weight: 500;
+}
+h1, h2{
+  font-family: Young Serif, sans-serif;
+  font-weight: 400;
+}
+h1{
+  color: hsl(24, 5%, 18%);
+}
+h2{
+  color:hsl(14, 45%, 36%);
+}
+b{
+  color: hsl(30, 10%, 34%);
+  font-weight: 600;
+}
+main{
+  height: 100%;
+}
+.container{
+  padding: 24px;
+  background-color: white;
+  border-radius: 0.5rem;
+}
+.container img{
+  border-radius: 0.5rem;
+  width: 700px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+.prep-time{
+  background-color: hsl(330, 100%, 98%);
+  padding: 0.3rem;
+  border-radius: 0.4rem;
+}
+
+.prep-time p{
+  color: hsl(332, 51%, 32%);
+  margin-left: 18px;
+  font-weight: bold;
+}
+li{
+  margin-bottom: 10px;
+}
+.Instructions ul{
+  list-style: decimal;
+}
+table{
+  width: 100%;
+}
+table, td{
+  border-bottom: solid 2px hsl(30, 54%, 90%);
+}
+td{
+  padding: 10px;
+  font-weight: bold;
+}
+.td2{
+  color:hsl(14, 45%, 36%);
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
